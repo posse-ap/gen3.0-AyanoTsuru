@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header id="is-header" class="l-header p-header">
+    <div class="p-header_logo"><img src="./img/logo.svg" alt="posse"></div>
+    <button class="p-header_botton" id="js-headerbotton"> </button>
+    <div class="p-header__inner">
+      <nav class="p-header_nav">
+        <ul class="p-header__nav__list">
+          <li class="p-header-nav-item">
+            <a href="https://posse-ap.github.io/sample-ph1-website/" class="headerpossetop">POSSEとは</a>
+          </li>
+          <li class="p-header-nav-item">
+            <a href="https://posse-ap.github.io/sample-ph1-website/quiz/" class="headerquiztop">クイズ</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="p-header_sns p-sns">
+       <li class="p-sns__item">
+          <a href="https://twitter.com/posse_program" class="headertwittertop">
+            <img src="./img/icon/icon-twitter.svg" alt="twitter">
+          </a>
+          </li>
+          <li class="p-sns__item">
+            <a href="https://www.instagram.com/posse_programming/"class="headerinstagramtop">
+              <img src="./img/icon/icon-instagram.svg" alt="icon-instagram">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="p-back-photo">
+      <div class="l-container">
+        <h1 class="l-container-title">
+          <span class="p-hero-title">POSSE課題</span>
+          <span class="p-hero-bigtitle">ITクイズ</span>
+        </h1>
+      </div>
+    </section>
+    <div class="quiz-container">
+      <section class="quiz-1">
+        <div class="quiz-1-question">
+          <h3 class="q-image-quiz-text">
+            <span class="q-a-label">Q1</span>
+            <span class="q-text">日本のIT人材が2030年には最大どれくらい不足すると言われているでしょうか？</span>
+          </h3>
+          <figure class="quiz-1-question-figure">
+            <img src="./img/quiz/img-quiz01.png" alt="quiz-1-question-figure">
+          </figure>
+          <div class="quiz-1-answer">
+            <span class="quiz-1-answer-span">A</span>
+            <ul class="quiz-1-answer-list">
+              <li id="answer-1-1" class="quiz-1-answer-item"><button class="p-quiz-box__answer__button">約28万人<i class="u-icon__arrow"></i></button></li>
+              <li class="quiz-1-answer-item"><button class="p-quiz-box__answer__button">約78万人<i class="u-icon__arrow"></i></button></li>
+              <li class="quiz-1-answer-item"><button class="p-quiz-box__answer__button">約183万人<i class="u-icon__arrow"></i></button></li>
+            </ul>
+          </div>
+          <cite class="quiz-1-cite">
+            <i class="u-icon-note"></i>
+            経済産業省 2019年3月 － IT 人材需給に関する調査
+          </cite>
+        </div>
+      </section>
+      <!-- <section class="quiz-1">
+        <div class="quiz-1-question">
+          <h3 class="q-image-quiz-text">
+            <span class="q-a-label">Q2</span>
+            <span class="q-text">既存業界のビジネスと、先進的なテクノロジーを結びつけて生まれた、新しいビジネスのことをなんと言うでしょう？
+            </span>
+          </h3>
+          <figure class="quiz-1-question-figure">
+            <img src="./img/quiz/img-quiz02.png" alt="quiz-2-question-figure">
+          </figure>
+          <div class="quiz-1-answer">
+            <span class="quiz-1-answer-span">A</span>
+            <ul class="quiz-1-answer-list">
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+            </ul>
+          </div>
+          <cite class="quiz-1-cite">
+            <i class="u-icon-note"></i>
+            
+          </cite>
+        </div>
+      </section>
+      <section class="quiz-1">
+        <div class="quiz-1-question">
+          <h3 class="q-image-quiz-text">
+            <span class="q-a-label">Q3</span>
+            <span class="q-text">IoTとは何の略でしょう？
+            </span>
+          </h3>
+          <figure class="quiz-1-question-figure">
+            <img src="./img/quiz/img-quiz03.png" alt="quiz-2-question-figure">
+          </figure>
+          <div class="quiz-1-answer">
+            <span class="quiz-1-answer-span">A</span>
+            <ul class="quiz-1-answer-list">
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+            </ul>
+          </div>
+          <cite class="quiz-1-cite">
+            <i class="u-icon-note"></i>
+            
+          </cite>
+        </div>
+      </section>
+      <section class="quiz-1">
+        <div class="quiz-1-question">
+          <h3 class="q-image-quiz-text">
+            <span class="q-a-label">Q4</span>
+            <span class="q-text">イギリスのコンピューター科学者であるギャビン・ウッド氏が提唱した、ブロックチェーン技術を活用した「次世代分散型インターネット」のことをなんと言うでしょう
+            </span>
+          </h3>
+          <figure class="quiz-1-question-figure">
+            <img src="./img/quiz/img-quiz04.png" alt="quiz-2-question-figure">
+          </figure>
+          <div class="quiz-1-answer">
+            <span class="quiz-1-answer-span">A</span>
+            <ul class="quiz-1-answer-list">
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+            </ul>
+          </div>
+          <cite class="quiz-1-cite">
+            <i class="u-icon-note"></i>
+            
+          </cite>
+        </div>
+      </section>
+      <section class="quiz-1">
+        <div class="quiz-1-question">
+          <h3 class="q-image-quiz-text">
+            <span class="q-a-label">Q5</span>
+            <span class="q-text">イギリスのコンピューター科学者であるギャビン・ウッド氏が提唱した、ブロックチェーン技術を活用した「次世代分散型インターネット」のことをなんと言うでしょう？
+            </span>
+          </h3>
+          <figure class="quiz-1-question-figure">
+            <img src="./img/quiz/img-quiz05.png" alt="quiz-2-question-figure">
+          </figure>
+          <div class="quiz-1-answer">
+            <span class="quiz-1-answer-span">A</span>
+            <ul class="quiz-1-answer-list">
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+            </ul>
+          </div>
+          <cite class="quiz-1-cite">
+            <i class="u-icon-note"></i>
+            
+          </cite>
+        </div>
+      </section>
+      <section class="quiz-1">
+        <div class="quiz-1-question">
+          <h3 class="q-image-quiz-text">
+            <span class="q-a-label">06</span>
+            <span class="q-text">先進テクノロジー活用企業と出遅れた企業の収益性の差はどれくらいあると言われているでしょうか?
+            </span>
+          </h3>
+          <figure class="quiz-1-question-figure">
+            <img src="./img/quiz/img-quiz06.png" alt="quiz-2-question-figure">
+          </figure>
+          <div class="quiz-1-answer">
+            <span class="quiz-1-answer-span">A</span>
+            <ul class="quiz-1-answer-list">
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+              <li class="quiz-1-answer-item"></li>
+            </ul>
+          </div>
+          <cite class="quiz-1-cite">
+            <i class="u-icon-note"></i>
+            
+          </cite>
+        </div>
+      </section> -->
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
